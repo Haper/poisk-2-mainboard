@@ -1,0 +1,79 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~99|Field=Quantity~Integer~Quantity~149|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~mainboard.PrjPCB|ReportField=ProjectFullPath~C:\Poisk\PCB\mainboard.PrjPCB|ReportField=Title~Bill of Materials For PCB Document [mainboard.PcbDoc]|ReportField=TotalQuantity~349|ReportField=ReportTime~17:38:17|ReportField=ReportDate~01.02.2016|ReportField=ReportDateTime~01.02.2016 17:38:17|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~mainboard.PcbDoc|ReportField=DataSourceFullPath~C:\Poisk\PCB\mainboard.PcbDoc
+1|6V|1
+2|CAP_16|1
+3|CAP_39|1
+4|CAP_22|2
+5|CAP_10MKF|1
+6|6N8|2
+7|CAP_47MKF|4
+8|CAP_0.15|121
+9|KR1533TM2|7
+10|KR1533LA1|1
+11|KR1533LI1|4
+12|KR1533LL1|5
+13|KR1533LN1|4
+14|KR1533IE10|1
+15|KR1533TM9|2
+16|KR556RT4A|3
+17|KR1810GF84|1
+18|KR1533LA3|2
+19|KR1533LE1|2
+20|KR531LN1|1
+21|KR1533TM8|1
+22|KR1810VM86M|1
+23|KR1810VM87|1
+24|KR1533LP8|1
+25|KR1533AP5|4
+26|KR1533AP6|8
+27|KR1533IR22|5
+28|KR1810VG88|1
+29|155LA13|1
+30|KR1533IR24|1
+31|K155IE4|1
+32|KR1810VN59A|1
+33|K155ID3|1
+34|KR580VV55A|1
+35|KR1810VT37|1
+36|KM555IR26|3
+37|580VI53|1
+38|K561LN2|1
+39|KR512VI1|1
+40|27256|2
+41|K132RU8|2
+42|KR1533AP3|1
+43|KR1533KP14|2
+44|KR1533KP12|1
+45|KR1533ID7|1
+46|NR1-4-9|3
+47|NR1-1-1-8|3
+48|NR1-4-9|3
+49|KR565RU7|64
+50|Header 3|4
+51|POWER LED|1
+52|XTAL_24MHZ|1
+53|XTAL_14318|1
+54|XTAL_32768|1
+55|RES_1K|14
+56|RES_750|2
+57|RES_4K7|6
+58|RES_390|2
+59|RES_10K|4
+60|RES_100|1
+61|RES_51K|1
+62|RES_5M1|1
+63|RES_470K|1
+64|RES_680|4
+65|RES_2K2|1
+66|RES_300|1
+67|Header 2X2|1
+68|HEADER4X2|1
+69|Header 2|1
+70|KD522A|2
+71|KT361A|1
+72|KT315G|1
+73|RESET|1
+74|SPEAKER|1
+75|KEYB LOCK|1
+76|Keyboard|1
+77|POWER SUPPLY|1
+78|SlotISA8Bit|8

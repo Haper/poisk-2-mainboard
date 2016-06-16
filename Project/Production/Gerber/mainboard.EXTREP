@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: mainboard.GBR   12.06.2016  16:07:39
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top                                     
+.GP1                Ground                                  
+.GP2                Power                                   
+.GBL                Bottom                                  
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GTP                Top Paste                               
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
+.GM15               Mechanical                              
+.GM4                NPTH                                    
+.GM1                Board                                   
+.GM13               MechAssembly                            
+.GM3                Bot3D                                   
+.GM2                Top3D                                   
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
+.2                  Dielectric 3                            
+.3                  Dielectric 4                            
+------------------------------------------------------------------------------------------

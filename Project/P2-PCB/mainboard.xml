@@ -1,0 +1,117 @@
+<?xml version = "1.0" ?>
+<?xml-stylesheet type="text/xsl" href="mainboard.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW Comment CDATA #IMPLIED>
+  <!ATTLIST ROW Footprint CDATA #IMPLIED>
+  <!ATTLIST ROW LibRef CDATA #IMPLIED>
+  <!ATTLIST ROW Quantity CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="Comment" Caption="Comment" Index="0" BandIndex="0" RowIndex="0" ColIndex="0" Width="99"></COLUMN>
+    <COLUMN Name="Footprint" Caption="Footprint" Index="3" BandIndex="0" RowIndex="0" ColIndex="1" Width="117"></COLUMN>
+    <COLUMN Name="LibRef" Caption="LibRef" Index="4" BandIndex="0" RowIndex="0" ColIndex="2" Width="86"></COLUMN>
+    <COLUMN Name="Quantity" Caption="Quantity" Index="5" BandIndex="0" RowIndex="0" ColIndex="3" Width="149"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW Comment="6V" Footprint="BATTERY_6V" LibRef="BATTERY_6V" Quantity="1"></ROW>
+    <ROW Comment="CAP_16" Footprint="Cap_5mm" LibRef="CAP_16" Quantity="1"></ROW>
+    <ROW Comment="CAP_39" Footprint="CAP_2.5MM" LibRef="CAP_39" Quantity="1"></ROW>
+    <ROW Comment="CAP_22" Footprint="CAP_2.5MM" LibRef="CAP_22" Quantity="2"></ROW>
+    <ROW Comment="CAP_10MKF" Footprint="CAP_20MM_P" LibRef="CAP_10MKF" Quantity="1"></ROW>
+    <ROW Comment="6N8" Footprint="CAP_2.5MM" LibRef="CAP_6N8" Quantity="2"></ROW>
+    <ROW Comment="CAP_47MKF" Footprint="CAP_25MM_P" LibRef="CAP_47MKF" Quantity="4"></ROW>
+    <ROW Comment="CAP_0.15" Footprint="Cap_5mm" LibRef="CAP_0.15" Quantity="121"></ROW>
+    <ROW Comment="KR1533TM2" Footprint="DIP14" LibRef="KR1533TM2" Quantity="7"></ROW>
+    <ROW Comment="KR1533LA1" Footprint="DIP14" LibRef="KR1533LA1" Quantity="1"></ROW>
+    <ROW Comment="KR1533LI1" Footprint="DIP14" LibRef="KR1533LI1" Quantity="4"></ROW>
+    <ROW Comment="KR1533LL1" Footprint="DIP14" LibRef="KR1533LL1" Quantity="5"></ROW>
+    <ROW Comment="KR1533LN1" Footprint="DIP14" LibRef="KR1533LN1" Quantity="4"></ROW>
+    <ROW Comment="KR1533IE10" Footprint="DIP16" LibRef="KR1533IE10" Quantity="1"></ROW>
+    <ROW Comment="KR1533TM9" Footprint="DIP16" LibRef="KR1533TM9" Quantity="2"></ROW>
+    <ROW Comment="KR556RT4A" Footprint="DIP16" LibRef="KR556RT4A" Quantity="3"></ROW>
+    <ROW Comment="KR1810GF84" Footprint="DIP18" LibRef="KR1810GF84" Quantity="1"></ROW>
+    <ROW Comment="KR1533LA3" Footprint="DIP14" LibRef="KR1533LA3" Quantity="2"></ROW>
+    <ROW Comment="KR1533LE1" Footprint="DIP14" LibRef="KR1533LE1" Quantity="2"></ROW>
+    <ROW Comment="KR531LN1" Footprint="DIP14" LibRef="KR531LN1" Quantity="1"></ROW>
+    <ROW Comment="KR1533TM8" Footprint="DIP16" LibRef="KR1533TM8" Quantity="1"></ROW>
+    <ROW Comment="KR1810VM86M" Footprint="DIP40" LibRef="KR1810VM86M" Quantity="1"></ROW>
+    <ROW Comment="KR1810VM87" Footprint="DIP40" LibRef="KR1810VM87" Quantity="1"></ROW>
+    <ROW Comment="KR1533LP8" Footprint="DIP14" LibRef="KR1533LP8" Quantity="1"></ROW>
+    <ROW Comment="KR1533AP5" Footprint="DIP20" LibRef="KR1533AP5" Quantity="4"></ROW>
+    <ROW Comment="KR1533AP6" Footprint="DIP20" LibRef="KR1533AP6" Quantity="8"></ROW>
+    <ROW Comment="KR1533IR22" Footprint="DIP20" LibRef="KR1533IR22" Quantity="5"></ROW>
+    <ROW Comment="KR1810VG88" Footprint="DIP20" LibRef="KR1810VG88" Quantity="1"></ROW>
+    <ROW Comment="155LA13" Footprint="DIP14" LibRef="155LA13" Quantity="1"></ROW>
+    <ROW Comment="KR1533IR24" Footprint="DIP20" LibRef="KR1533IR24" Quantity="1"></ROW>
+    <ROW Comment="K155IE4" Footprint="DIP14" LibRef="K155IE4" Quantity="1"></ROW>
+    <ROW Comment="KR1810VN59A" Footprint="DIP28" LibRef="KR1810VN59A" Quantity="1"></ROW>
+    <ROW Comment="K155ID3" Footprint="DIP24" LibRef="K155ID3" Quantity="1"></ROW>
+    <ROW Comment="KR580VV55A" Footprint="DIP40" LibRef="KR580VV55A" Quantity="1"></ROW>
+    <ROW Comment="KR1810VT37" Footprint="DIP40" LibRef="KR1810VT37" Quantity="1"></ROW>
+    <ROW Comment="KM555IR26" Footprint="DIP16" LibRef="KM555IR26" Quantity="3"></ROW>
+    <ROW Comment="580VI53" Footprint="DIP24" LibRef="580VI53" Quantity="1"></ROW>
+    <ROW Comment="K561LN2" Footprint="DIP14" LibRef="K561LN2" Quantity="1"></ROW>
+    <ROW Comment="KR512VI1" Footprint="DIP24" LibRef="KR512VI1" Quantity="1"></ROW>
+    <ROW Comment="27256" Footprint="DIP28" LibRef="27256" Quantity="2"></ROW>
+    <ROW Comment="K132RU8" Footprint="DIP18" LibRef="K132RU8" Quantity="2"></ROW>
+    <ROW Comment="KR1533AP3" Footprint="DIP20" LibRef="KR1533AP3" Quantity="1"></ROW>
+    <ROW Comment="KR1533KP14" Footprint="DIP16" LibRef="KR1533KP14" Quantity="2"></ROW>
+    <ROW Comment="KR1533KP12" Footprint="DIP16" LibRef="KR1533KP12" Quantity="1"></ROW>
+    <ROW Comment="KR1533ID7" Footprint="DIP16" LibRef="KR1533ID7" Quantity="1"></ROW>
+    <ROW Comment="NR1-4-9" Footprint="NR1-4-9" LibRef="NR1-4-9" Quantity="6"></ROW>
+    <ROW Comment="NR1-1-1-8" Footprint="DIP16" LibRef="NR1-1-1-8" Quantity="3"></ROW>
+    <ROW Comment="KR565RU7" Footprint="DIP16" LibRef="KR565RU7" Quantity="64"></ROW>
+    <ROW Comment="Header 3" Footprint="HDR1X3" LibRef="Header 3" Quantity="4"></ROW>
+    <ROW Comment="POWER LED" Footprint="HDR1X2" LibRef="Header 2" Quantity="1"></ROW>
+    <ROW Comment="XTAL_24MHZ" Footprint="XTAL_24MHZ" LibRef="XTAL_24MHZ" Quantity="1"></ROW>
+    <ROW Comment="XTAL_14318" Footprint="XTAL_24MHZ" LibRef="XTAL_14318" Quantity="1"></ROW>
+    <ROW Comment="XTAL_32768" Footprint="XTAL32768" LibRef="XTAL_32768" Quantity="1"></ROW>
+    <ROW Comment="RES_1K" Footprint="RES_10MM" LibRef="RES_1K" Quantity="14"></ROW>
+    <ROW Comment="RES_750" Footprint="RES_10MM" LibRef="RES_750" Quantity="2"></ROW>
+    <ROW Comment="RES_4K7" Footprint="RES_10MM" LibRef="RES_4K7" Quantity="6"></ROW>
+    <ROW Comment="RES_390" Footprint="RES_10MM" LibRef="RES_390" Quantity="2"></ROW>
+    <ROW Comment="RES_10K" Footprint="RES_10MM" LibRef="RES_10K" Quantity="4"></ROW>
+    <ROW Comment="RES_100" Footprint="RES_10MM" LibRef="RES_100" Quantity="1"></ROW>
+    <ROW Comment="RES_51K" Footprint="RES_10MM" LibRef="RES_51K" Quantity="1"></ROW>
+    <ROW Comment="RES_5M1" Footprint="RES_12.5MM" LibRef="RES_5M1" Quantity="1"></ROW>
+    <ROW Comment="RES_470K" Footprint="RES_10MM" LibRef="RES_470K" Quantity="1"></ROW>
+    <ROW Comment="RES_680" Footprint="RES_10MM" LibRef="RES_680" Quantity="4"></ROW>
+    <ROW Comment="RES_2K2" Footprint="RES_10MM" LibRef="RES_2K2" Quantity="1"></ROW>
+    <ROW Comment="RES_300" Footprint="RES_10MM" LibRef="RES_300" Quantity="1"></ROW>
+    <ROW Comment="Header 2X2" Footprint="HDR2X2" LibRef="Header 2X2" Quantity="1"></ROW>
+    <ROW Comment="Header 4X2" Footprint="HDR2X4" LibRef="Header 4X2" Quantity="1"></ROW>
+    <ROW Comment="Header 2" Footprint="HDR1X2" LibRef="Header 2" Quantity="1"></ROW>
+    <ROW Comment="KD522A" Footprint="DIOD_12.5" LibRef="KD522A" Quantity="2"></ROW>
+    <ROW Comment="KT361A" Footprint="TRANS" LibRef="KT361A" Quantity="1"></ROW>
+    <ROW Comment="KT315G" Footprint="TRANS" LibRef="KT315G" Quantity="1"></ROW>
+    <ROW Comment="RESET" Footprint="HDR1X2" LibRef="Header 2" Quantity="1"></ROW>
+    <ROW Comment="SPEAKER" Footprint="HDR1X2" LibRef="Header 2" Quantity="1"></ROW>
+    <ROW Comment="KEYB LOCK" Footprint="HDR1X2" LibRef="Header 2" Quantity="1"></ROW>
+    <ROW Comment="Keyboard" Footprint="DN-5J" LibRef="ConnectorXTKeyboard" Quantity="1"></ROW>
+    <ROW Comment="POWER SUPPLY" Footprint="P8P9_12A" LibRef="ConnectorPOWERP8P9" Quantity="1"></ROW>
+    <ROW Comment="SlotISA8Bit" Footprint="ISA8bit" LibRef="SlotISA8Bit" Quantity="8"></ROW>
+  </ROWS>
+</GRID>
